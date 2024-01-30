@@ -1,3 +1,4 @@
+#Definirea claselor
 class Book:
     def __init__(self, title, author, isbn):
         self.title = title
@@ -33,7 +34,7 @@ class Library:
                 print(book)
 
 
-# Example usage:
+# Exemple
 book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", "978-0743273565")
 book2 = Book("To Kill a Mockingbird", "Harper Lee", "978-0061120084")
 
